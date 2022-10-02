@@ -1,0 +1,220 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, darkblue , grey);
+  }
+  /* .header-containter img{
+    width: 50px;
+    height: 50px;
+  } */
+  .menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    background-color:black;
+    margin: 10px;
+    padding: 15px;
+    width: 100px;
+    font-size: 15px;
+    color : white;
+    font-weight: bold;
+  }
+  
+  /* .menu a:link {
+    color: white;
+    text-decoration: none;
+  } */
+  
+  .body-container{
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    ,url("./images/background_menu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+  .title{
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    margin-bottom: 20px;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .title1{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    padding: 120px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-bar-menu{
+    overflow: hidden;
+    border: none;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .nav-bar-menu a{
+    font-weight: bold;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    float: left;
+  }
+  
+  .nav-bar-menu a:hover, .dropdown:hover.dropbtn, .dropbtn:focus{
+    background-color: aqua;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    padding: 10px 40px;
+    background-color: inherit;
+    margin: 0;
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:black;
+    /* width: 20px 40px; */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 5px 15px;
+    float: none;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+  }
+  
+  .dropbtn:hover{
+    background-color: aqua;
+  }
+  
+  .show {
+    display: block;
+  }
+
+  #riceType ul {
+    padding: 0px;
+    list-style: none;
+    display: inline-flex;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+  }
+#riceType li{
+    padding: 20px;
+}
+  #riceType p{
+      padding-top: 20px;
+      text-align: center;
+      color: black;
+      font-weight: 540;
+  }
+  .rice1{
+    background-color: white;
+    border-radius: 15px;
+    width: 180px;
+    height: 270px;
+  }
+  .most{
+      padding-top: 12px;
+      text-align: center;
+      background-color: #FFC30B;
+      height: 27px;
+      border-radius: 0 0 15px 15px;
+      font-weight: bolder;
+      color: white;
+  }
+  
+#rice1 img{
+      text-align: center;
+      padding-left: 45px;
+      width: 90px;
+      height: 120px;
+  }
+#rice2 img{
+    text-align: center;
+    padding-left: 45px;
+    padding-top: 20px;
+    width: 90px;
+    height: 100px;
+}
+#rice3 img{
+    text-align: center;
+    padding-left: 45px;
+    padding-top: 10px;
+    width: 90px;
+    height: 110px;
+}
+#rice4 img{
+    text-align: center;
+    padding-left: 45px;
+    width: 90px;
+    height: 120px;
+}
+
+
+
+
+  .footer-container{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+  }
